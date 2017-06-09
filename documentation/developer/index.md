@@ -35,9 +35,9 @@ functionality of stephanie and make it a little more personally trained for your
 <a name="dummies"></a>
 ### For Non Programmers
 
-For all the non-programmers who have an interest of programming, there is an absolutely new [section] provided just to get a basic flow of how stephanie can be operated.
-With a little knowledge of python (programming language), anyone can write his own modules with simplistic API that stephanie provides. So check out here :-  to know more about
-it.
+For all the non-programmers who have an interest of programming, I am working on a new section which could help people to learn programming interactively while extending the functionality of Stephanie.
+
+With a little knowledge of python (programming language), anyone can write his own modules with simplistic API that stephanie provides.
 
 <hr>
 
@@ -185,31 +185,29 @@ even do routing meaning doing a nested module which we will discuss later in the
             [
                 .
                 .
-                .
                 [..],
-                [
-                    "FacebookModule@GetNotifications",
-                    [
-                      "facebook",
-                      "notifications"
-                    ]
-                ],
-                [
-                    "ZomatoModule@handle",
-                    [
-                      "quite",
-                      "hungry"
-                    ]
-                ]
-                [
-                    "TestModule@AskFavoriteFood",      // As you can see class and method name both are written in CamelCase.
-                    [
-                        "ask",
-                        "favorite",
-                        "food"
-                    ]
-                ]
+                [..],
+                ["FacebookModule@GetNotifications",["facebook", "notifications"]],
+                ["ZomatoModule@handle",["feeling", "hungry"]],
+                ["TestModule@AskFavoriteFood",["ask", "favorite", "food"]], // As you can see class and method name both are written in CamelCase.
             ]
+
+    So basically it's
+
+            ["ClassName@FunctionName", ["keywords", "trigger", "module"]]
+
+- One more thing, there are certain keywords which are reserved as stop words, and are removed from the speech inputted by the user, so any of those keywords mentioned in the above list will not be considered so avoid them in order to make sure that efficiency of the algorithm stays good, here's the entire list of those reserved stop words:
+
+            {
+                "what", "where", "which", "how", "when", "who",
+                "is", "are", "makes", "made", "make", "did", "do",
+                "to", "the", "of", "from", "against", "and", "or",
+                "you", "me", "we", "us", "your", "my", "mine", 'yours',
+                "could", "would", "may", "might", "let", "possibly",
+                'tell', "give", "told", "gave", "know", "knew",
+                'a', 'am', 'an', 'i', 'like', 'has', 'have', 'need',
+                'will', 'be', "this", 'that', "for"
+            }
 
 - And HalleLuyah! (I'm pretty sure I spelled that wrong, but oh well), You can use your new module! Boot up stephanie, (Hey Stephanie wake up, (if it has wake_up on))
 and ask something like, "Hey Stephanie, ask me my favorite food."
