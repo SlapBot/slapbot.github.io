@@ -91,6 +91,11 @@
                         {% else %}
                             <a href="/documentation/resources/credits" class="list-group-item">Credits</a>
                         {% endif %}
+                        {%if page.currentpage == "support" %}
+                            <a href="/documentation/resources/support" class="list-group-item active">Support</a>
+                        {% else %}
+                            <a href="/documentation/resources/support" class="list-group-item">Support</a>
+                        {% endif %}
                             <a href="/documentation" class="list-group-item">Documentation</a>
                         {%if page.currentpage == "blog" %}
                             <a href="/documentation/resources/blog" class="list-group-item active">dont click.</a>
