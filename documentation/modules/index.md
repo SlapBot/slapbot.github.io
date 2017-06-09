@@ -257,7 +257,7 @@ in football, the guy who made that website is awesome and is delivering this ent
 
         api.football.org.key = 05d52d8812a548c6a9f6f29ed60e8e00
 
-- Football module is huge and requires a configuration on your favorite team, league and so on, in order to make use all of that,  head to [Resources](/stephanie/documentation/resources/football).
+- Football module is huge and requires a configuration on your favorite team, league and so on, in order to make use all of that,  head to [Resources](/documentation/resources/football).
 
 ##### Test
 
@@ -363,5 +363,5 @@ any prior setup required.
 
 Stephanie offers a basic system module, which tackles some of the basic systematic options. Again no prior setup is needed for this module to work out of the box.
 
-**Now let's movie to the [usage](/stephanie/documentation/usage){:target="_blank"} section to get a look at all the functionality provided by
+**Now let's movie to the [usage](/documentation/usage){:target="_blank"} section to get a look at all the functionality provided by
 various modules of stephanie, and How to use them.

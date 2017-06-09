@@ -141,7 +141,7 @@ Newsapi.org
     - latest
     - news
 
-**Note :** In order to configure this latter feature, head to [Resources](/stephanie/documentation/news){:target="_blank"} to configure it a bit more.
+**Note :** In order to configure this latter feature, head to [Resources](/documentation/news){:target="_blank"} to configure it a bit more.
 
 #### Use Case
 
@@ -317,7 +317,7 @@ football-data.org
     - Football
     - Information
 
-**Note :** Complete information, since it's huge is present at [Resources](/stephanie/documentation/resources/football){:target="_blank"}
+**Note :** Complete information, since it's huge is present at [Resources](/documentation/resources/football){:target="_blank"}
 
 <hr>
 

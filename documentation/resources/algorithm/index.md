@@ -199,7 +199,7 @@ So, now we have two arrays one with keywords spoken by a user and second is a 2D
 <a name="library">
 # Library
 
-This very algorithm has been implemented in python programming language, and is completely open source. You can embed it in any form in one of your applications whether it be open source or commercial. Head to [API section](/stephanie/documentation/resources/algorithm-api) to get detailed overview of how to work with the library in numerous ways.
+This very algorithm has been implemented in python programming language, and is completely open source. You can embed it in any form in one of your applications whether it be open source or commercial. Head to [API section](/documentation/resources/algorithm-api) to get detailed overview of how to work with the library in numerous ways.
 
 <hr>
 
