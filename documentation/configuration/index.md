@@ -22,7 +22,7 @@ Configuration
 Configuration is divided into two categories, primary configuration and secondary configuration, primary configuration sets up how
 Stephanie works internally, while secondary configuration sets up functionality that Stephanie will provide, since secondary configuration
 would differ module by module (Facebook, twitter, restaurant and so on), there is a whole set dedicated to that which you could refer up
-anytime here at [modules](/stephanie/documentation/modules), For now let's focus at primary, since this lays the very foundation of your virtual assistant.
+anytime here at [modules](/documentation/modules), For now let's focus at primary, since this lays the very foundation of your virtual assistant.
 
 <hr>
 
@@ -209,4 +209,4 @@ like facebook and so on, to get your Jarvis v-999 ready. (Look you must be frust
 if you can get facebook notifications without you doing anything, wouldn't that mean anyone can do that, and hence they have your
 account credentials. So.. I don't hate you or something, you gotta work to reap the benefits man!)
 
-To [secondary configurations](/stephanie/documentation/modules), here we come!
+To [secondary configurations](/documentation/modules), here we come!

@@ -243,4 +243,4 @@ if you have some kind of command line preference, for instance I frickin love cm
 
 - Since you haven't done any configuration, stephanie won't work at it's best, will have limited functionality and efficiency won't be
 the best either, try commands like "Hey Stephanie, what is the time right now?" or "Hey stephanie, what is the date today?" to test it and Let's meet
-in the [configurations section](/stephanie/documentation/configuration)
+in the [configurations section](documentation/configuration)
