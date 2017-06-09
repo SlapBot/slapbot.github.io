@@ -58,7 +58,7 @@ matches with the practical implications.
 <a name="root"></a>
 ##### Root Directory Structure.
 
-<img class="img-responsive" src="/img/documentation/directory_structure_root.png">
+<img class="img-responsive" src="/img/documentation/directory_structure_root.PNG">
 
 - **index.py** - The main file which boots up the stephanie.
 
@@ -81,7 +81,7 @@ matches with the practical implications.
 <a name="stephanie"></a>
 ##### Stephanie Directory Structure.
 
-<img class="img-responsive" src="/img/documentation/directory_structure_child.png">
+<img class="img-responsive" src="/img/documentation/directory_structure_child.PNG">
 
 **Packages**
 
