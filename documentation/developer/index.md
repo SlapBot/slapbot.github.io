@@ -58,7 +58,7 @@ matches with the practical implications.
 <a name="root"></a>
 ##### Root Directory Structure.
 
-<img class="img-responsive" src="img/documentation/directory_structure_root.png">
+<img class="img-responsive" src="/img/documentation/directory_structure_root.png">
 
 - **index.py** - The main file which boots up the stephanie.
 
@@ -81,7 +81,7 @@ matches with the practical implications.
 <a name="stephanie"></a>
 ##### Stephanie Directory Structure.
 
-<img class="img-responsive" src="img/documentation/directory_structure_child.png">
+<img class="img-responsive" src="/img/documentation/directory_structure_child.png">
 
 **Packages**
 
@@ -439,4 +439,4 @@ And it's the modules built by developers like you which could let Stephanie grow
 
 - Create a github repository with the actual module.
 - Write a setup on how to integrate it, basically copy pasting it to modules folder, installing some package as a dependency? wiring the module name in modules.json
-- Sharing it with Stephanie's main team by using any of the social media links listed below so that we can show it to other users in one single place in the [resources](documentation/resources/modules) section.
+- Sharing it with Stephanie's main team by using any of the social media links listed below so that we can show it to other users in one single place in the [resources](/documentation/resources/modules) section.
