@@ -1,1 +1,57 @@
-theme: jekyll-theme-cayman
+url: https://y7kim.github.io
+baseurl: /stephanie
+
+# Site settings
+title: Stephanie | Virtual assistant at your service
+email: your-email@domain.com
+description: Stephanie is an open-source platform built specifically for voice-controlled application as well as to automate daily tasks imitating much of an virtual assistant's work.
+
+product_title: Stephanie
+
+# Team names, titles and social links
+about_me:
+  nickname: SlapBot
+  subtitle: I dunno never liked the terms like "Founder", "Lead Developer" and so on.
+  name: Ujjwal Gupta
+  motto: Start new project > Scrape > Repeat
+  title: A little about 'me'
+  todo: A note to yourself - write some stupid stuff to show how professional you are.
+  facebook_link: https://www.facebook.com/Drazier
+  quora_link: https://www.quora.com/profile/Ujjwal-Gupta-31
+  github_link: http://github.com/slapbot
+  description: Alright so jokes aside, I just think programming is one of the fields which is more about creativity than anything,
+               though I strongly believe that an individual must be formal, disciplined and utmost professional when needed,
+               while your inner weirdness shouldn't be compromised but accepted, it's not wrong to have fun in certain situations.
+               Work is the most important part of any individual's life, what's the point if you don't have fun in what you
+               always dreamt of as a kid,
+               <br>
+               So yeah, Again I'll probably be updating the software ever so often, to make sure it stays up-to-date with current
+               technology, You can come say me "Hi" in any of the social media links, but just don't be formal,
+               imagine I am one of your co-mate, college-mate, room-mate, mate,
+               <strong>whereas for any formal enquiries kindly contact me at "ugupta41@gmail.com".</strong>
+               <br>
+               Arguably the worst "About Me" section ever, but oh well, atleast you can feel a little bit home.
+               <br>
+               <br> Cheers,
+               <br> SlapBot.
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: reddit
+    url: https://www.reddit.com/r/StephanieAssistant/
+  - title: facebook
+    url: https://www.facebook.com/Stephanie-Virtual-Assistant-319363778501603/
+  - title: envelope
+    url: stephanie_virtual_assistant@gmail.com
+  - title: question-circle
+    url: https://www.quora.com/topic/Stephanie-Virtual-Assistant
+  - title: github
+    url: http://github.com/slapbot/stephanie
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty

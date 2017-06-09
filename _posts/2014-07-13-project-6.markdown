@@ -1,0 +1,20 @@
+---
+title: And many
+subtitle: many more
+layout: default
+modal-id: 2
+thumbnail: many-more.png
+alt: image-alt
+description: Take a look here at <a href="documentation/usage">modules</a> to see all of the functionality of stephanie.
+convos:
+    "
+    <p>here's another one for google calendar.<p>
+    <hr>
+    <p><strong>You: </strong>Hey Stephanie, Do I have any calendar events for today?</p>
+     <p>
+         <strong>Stephanie: </strong>
+         You have your date set up with stephanie ( ;) )
+         at 8:30pm.
+     </p>"
+footer: You can add events, get an update about all events and many more. Don't forget to visit at <a href="documentation/usage">modules</a> to get a look at all given modules offered by stephanie out of the box.
+---

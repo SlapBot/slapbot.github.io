@@ -1,0 +1,32 @@
+---
+title: Movies
+subtitle: Get movies information
+layout: default
+modal-id: 4
+thumbnail: movies-information.png
+alt: image-alt
+description: Get information about your favorite movies.
+convos:
+    "<p><strong>You: </strong>Hey Stephanie, I need some movie information.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         which movie would you like to know about?
+     </p>
+     <p><strong>You: </strong>Avengers.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         is the movie you're referring to is Avengers, released in 2012?
+     </p>
+     <p><strong>You: </strong>Yeah.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         Avengers was released in 2012, directed by Joss Whedon of genre action, sci-fi
+         has a runtime of about 2 hour and 23 minutes, which
+         garnered a rating of 8.1 featuring Robert Downey Jr, Chris Evans, Scarlett Johansson and many more
+         had a plot such asNick Fury is the director of S.H.I.E.L.D., an international peace-keeping agency.
+         The agency is a who's who of Marvel Super Heroes, with Iron Man, The Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow.
+         When global security is threatened by Loki and his cohorts,
+         Nick Fury and his team will need all their powers to save the world from disaster.
+     </p>"
+footer: You can ask for some other movie incase their name is same, for instance avengers 2.
+---

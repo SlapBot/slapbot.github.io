@@ -1,0 +1,33 @@
+---
+title: News
+subtitle: Get daily news
+layout: default
+modal-id: 3
+thumbnail: news-information.png
+alt: image-alt
+description: Get news from your favorite websites like Forbes and so on.
+convos:
+    "<p><strong>You: </strong>Hey Stephanie, get me some news.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         would you prefer any specific category? If yes then what would it be?
+     </p>
+     <p><strong>You: </strong>Technology.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         Any preference you would like to have about source of your news? like CNN
+         or Time magazine and so on?
+     </p>
+     <p><strong>You: </strong>Nah.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         And what kind of news sort would you like? latest or popular (the ones at the front-page)
+     </p>
+     <p><strong>You: </strong>popular ones.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         So, the news from (your given source else google-news) are as follows:
+         {Gives top 5-10 depending on your preference news stories with title, author and description}
+     </p>"
+footer: You can heavily customize this module, get daily news, get daily news from forbes and so on.
+---

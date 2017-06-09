@@ -1,0 +1,33 @@
+---
+title: Social Networks
+subtitle: Sync Facebook and Twitter
+layout: default
+modal-id: 5
+thumbnail: escape.png
+alt: image-alt
+description: Sync your facebook and twitter account to get updates.
+convos:
+    "<p><strong>You: </strong>Hey Stephanie, Do I have any facebook Notifications?</p>
+     <p>
+         <strong>Stephanie: </strong>
+         You have no latest notifications, (Haha, what a weirdo.)
+     </p>
+     <h3>Get birthday reminders</h3>
+     <p><strong>You: </strong>Hey Stephanie, Do I have any birthday reminders?</p>
+     <p>
+         <strong>Stephanie: </strong>
+         Oh Yes! your friend Karan Sachdeva has a birthday today.
+     </p>
+     <h3>Tweet Something</h3>
+     <p><strong>You: </strong>Hey Stephanie, I wanna tweet something.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         What would you like to tweet?
+     </p>
+     <p><strong>You: </strong>How can mirrors be real if our eyes aren't real.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         'How can mirrors be real if our eyes aren't real.' has been tweeted.
+     </p>"
+footer: You can do lots of stuffs in this section, check out documentation to know more about it.
+---

@@ -1,0 +1,30 @@
+---
+title: Restaurants
+subtitle: Get good places to eat
+layout: default
+modal-id: 6
+thumbnail: res-check.jpg
+alt: image-alt
+description: Get a good place to eat.
+convos:
+    "<p><strong>You: </strong>Hey Stephanie, find me a good restaurant.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         Which cuisine
+     </p>
+     <p><strong>You: </strong>Indian. ( c: )</p>
+     <p>
+         <strong>Stephanie: </strong>
+         Great looking for indian restaurants in {your location in settings file}
+     </p>
+     <p>
+         <strong>Stephanie: </strong>
+         How about this place in arya nagar, It's called Chappan Bhog, has a rating of 4.2?
+     </p>
+     <p><strong>You: </strong>Yeah that's good.</p>
+     <p>
+         <strong>Stephanie: </strong>
+         Okay opening the website in browser to check in detail.
+     </p>"
+footer: You can do lots of stuffs in this section like ask for attire, alcohol and many more, check out documentation to know more about it.
+---

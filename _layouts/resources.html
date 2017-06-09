@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+    <style>
+        .my-brand {
+            color: #fed136 !important;
+            font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+        }
+        .my-color {
+            background-color: #222; !important;
+            border-color: #fed136 !important;
+        }
+        .my-color:focus {
+            background-color: #fed136 !important;
+            border-color: white !important;
+        }
+        .my-color:hover {
+            background-color: #fed136 !important;
+            border-color: white !important;
+        }
+    </style>
+
+    <body id="page-top" class="index">
+        <nav class="navbar navbar-inverse" style="background-color: #222">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed my-color" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand my-brand" href="/stephanie/#home">Stephanie</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/stephanie/">Home</a></li>
+                        <li class="active"><a href="#" style="background-color: #fed136">Documentation</a></li>
+                        <li><a href="/github">Github</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <ul class="list-group">
+                        {%if page.currentpage == "resources" %}
+                            <a href="/stephanie/documentation/resources" class="list-group-item active">Resources</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources" class="list-group-item">Resources</a>
+                        {% endif %}
+                        {%if page.currentpage == "More Modules" %}
+                            <a href="/stephanie/documentation/resources/modules" class="list-group-item active">More Modules</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources/modules" class="list-group-item">More Modules</a>
+                        {% endif %}
+                        {%if page.currentpage == "football" %}
+                            <a href="/stephanie/documentation/resources/football" class="list-group-item active">Football</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources/football" class="list-group-item">Football</a>
+                        {% endif %}
+                        {%if page.currentpage == "news" %}
+                            <a href="/stephanie/documentation/resources/news" class="list-group-item active">News</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources/news" class="list-group-item">News</a>
+                        {% endif %}
+                        {%if page.currentpage == "algorithm" %}
+                            <a href="/stephanie/documentation/resources/algorithm" class="list-group-item active">Algorithm</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources/algorithm" class="list-group-item">Algorithm</a>
+                        {% endif %}
+                        {%if page.currentpage == "algorithm-api" %}
+                            <a href="/stephanie/documentation/resources/algorithm-api" class="list-group-item active">Algorithm API</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources/algorithm-api" class="list-group-item">Algorithm API</a>
+                        {% endif %}
+                        {%if page.currentpage == "api-reference" %}
+                            <a href="/stephanie/documentation/resources/api-reference" class="list-group-item active">API Reference</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources/api-reference" class="list-group-item">API Reference</a>
+                        {% endif %}
+                        {%if page.currentpage == "credits" %}
+                            <a href="/stephanie/documentation/resources/credits" class="list-group-item active">Credits</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources/credits" class="list-group-item">Credits</a>
+                        {% endif %}
+                            <a href="/stephanie/documentation" class="list-group-item">Documentation</a>
+                        {%if page.currentpage == "blog" %}
+                            <a href="/stephanie/documentation/resources/blog" class="list-group-item active">dont click.</a>
+                        {% else %}
+                            <a href="/stephanie/documentation/resources/blog" class="list-group-item">dont click.</a>
+                        {% endif %}
+                    </ul>
+                </div>
+                <div class="col-sm-10">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+
+        {% include footer.html %}
+        {% include js.html %}
+
+    </body>
+</html>

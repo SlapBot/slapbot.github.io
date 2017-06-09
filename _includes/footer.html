@@ -1,0 +1,23 @@
+  <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Open-Source, do whatever you want with code.</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="/stephanie/documentation/resources/credits" class="footer-credits">credits to some good people who helped me grow.</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

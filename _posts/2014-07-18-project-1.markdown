@@ -1,0 +1,18 @@
+---
+title: Weather
+subtitle: Get weather updates
+layout: default
+modal-id: 1
+thumbnail: weather-updates.png
+alt: image-alt
+description: Gets weather updates in accordance to your location.
+convos:
+    "<strong>You: </strong>Hey Stephanie, what's the weather update today?</p>
+    <p>
+        <strong>Stephanie: </strong>
+        Today weather at kanpur is sunny. There is a chance of rain.
+        Now Temperature is 23 degree centigrade. Humidity could be around 42 percent.
+        Wind Speed will be around 1km/hr with cloud cover 12 percent.
+    </p>"
+footer: You can ask for weather forecast for tomorrow, as well as for a week.
+---
