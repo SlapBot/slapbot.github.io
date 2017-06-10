@@ -3,7 +3,7 @@ layout: docs
 currentpage: configuration
 ---
 
-Configuration
+# Configuration
 
 - [Configuration](#configuration)
     - [Config.ini](#config-ini)
@@ -30,7 +30,7 @@ anytime here at [modules](/documentation/modules), For now let's focus at primar
 ### Config.ini file
 
 There will be a config.ini file present with every download of source code, so if you look inside the folder you'll find it named
-"config.ini", this file contains all the configuration related settings, you can open it with simple notepad, text editor or any of your favorite IDEs.
+`config.ini`, this file contains all the configuration related settings, you can open it with simple notepad, text editor or any of your favorite IDEs.
 Inside this file you'll find some predefined settings, where some are set by default while other needs to be filled.So let's go through each
 division and it's sub-divisions one by one.
 
@@ -90,23 +90,29 @@ okay enough of jokes, the next few settings will be really important ones. Examp
         always_on_engine = False
 
 
-- **assistant_name** - This resonates to the name of your virtual assistant, The system is optimized to give best results for "Stephanie".
+- **assistant_name** - This resonates to the name of your virtual assistant, The system is optimized to give best results for `Stephanie`.
 but you can give your own name to your assistant, and test how it goes. Just don't name anything stupid, bots have feelings.
 
 - **welcome_message** - This is spoken by your assistant, after it's all initialized and ready to run.
 
-- **wake_up_engine** - Can only take (True or False) Now this is a really cool part, what it basically does is that it toggles hibernation mode of stephanie, so what does that mean?
-Well instead of actively responding to each of your command, it just kind of goes to sleep. When you run the application, it's already in sleeping mode, and
-In order to bring it in active mode, speak "Stephanie, Wake Up.", this will bring stephanie to alive, and will now actively respond to each of your command,
-and now when you're done, you could say, "Hey Stephanie, Go to sleep.", and it will again go to sleep mode, and not responding to anything you're saying unless
-it's "Hey Stephanie, Wake up", or something similar to that. I personally recommend True status because it just feels quite human, when you need stephanie, you call her,
-and when you're done, you just shut it off.
+- **wake_up_engine** - Can only take `(True or False)` Now this is a really cool part, what it basically does is that it toggles hibernation mode of stephanie, so what does that mean?
 
-- **wake_up_command** - The command which enables stephanie to get in active phase, from hibernation one. remember if you have changed the assistant_name, make sure to change this one as well, in short this command is used to enable stephanie to active mode, again it's optimized to default, "Stephanie wake up" to yield best results.
+    Well instead of actively responding to each of your command, it just kind of goes to sleep. When you run the application, it's already in sleeping mode, and
+    In order to bring it in active mode, speak `"Stephanie, Wake Up."`, this will bring stephanie to alive, and will now actively respond to each of your command.
 
-- **greet_engine** - Defaults to True, basically with this feature on, whenever you say something as "Hey Stephanie what is...", "Umm, well stephanie give me...", it ignores everything written before stephanie so that you can use it in exchange with "what is..." meaning using stephanie in any command is not necessary, my advice, let it the way it is.
+    Now when you're done, you could say, `"Hey Stephanie, Go to sleep."`, and it will again go to sleep mode, and not responding to anything you're saying unless
+    it's `"Hey Stephanie, Wake up"`, or something similar to that. I personally recommend True status because it just feels quite human, when you need stephanie, you call her,
+    and when you're done, you just shut it off. So,
 
-- **always_on_engine** - Defaults to False, basically it's equivalent to "Siri, ...", meaning just like in siri and cortana, you speak it's name and that makes the service to work, it's exactly that except, it will use assistant_name, which defaults to "Stephanie", and you can't give command, with the name, like can't do, "stephanie, what ..." instead "stephanie" and then after beep-boop, the command. **My advise? let it stay False, oh and whenever you turn it to true, make sure to wake_up_engine false since they are completely opposite to each other and wake_up_engine takes the precedence over this one.**
+    `Hey Stephanie, wake up!` to activate and `Hey Stephanie, go to sleep` to deacitvate.
+
+- **wake_up_command** - The command which enables stephanie to get in active phase, from hibernation one. remember if you have changed the assistant_name, make sure to change this one as well, in short this command is used to enable stephanie to active mode, again it's optimized to default, `"Stephanie wake up"` to yield best results.
+
+- **greet_engine** - Defaults to True, basically with this feature on, whenever you say something as `"Hey Stephanie what is..."`, `"Umm, well stephanie give me..."`, it ignores everything written before stephanie so that you can use it in exchange with `"what is the meaning..."` meaning using stephanie in any command is not necessary, my advice, let it the way it is.
+
+- **always_on_engine** - Defaults to False, basically it's equivalent to `"Siri!"`, meaning just like in siri and cortana, you speak it's name and that makes the service to work, it's exactly that except, it will use assistant_name, which defaults to `"Stephanie"`, and you can't give command, with the name, like can't do, `"stephanie, what ..."` instead `"stephanie"` and then after beep-boop, the command. 
+
+    **My advise? let it stay False, oh and whenever you turn it to true, make sure to wake_up_engine false since they are completely opposite to each other and wake_up_engine takes the precedence over this one.**
 
 <hr>
 
@@ -135,16 +141,16 @@ Now time for an example:
 
         master_stt_engine = bing
 
-all the available options are as follows: "google_cloud", "bing", "wit", "houndify" and "ibm". Now there's a bonus one called,
-"google" which refers to web based speech to text, it has a default API token, and hence is the default engine, though it's probably
+all the available options are as follows: `google_cloud`, `bing`, `wit`, `houndify` and `ibm`. Now there's a bonus one called,
+`google` which refers to web based speech to text, it has a default API token, and hence is the default engine, though it's probably
 not the best one in the market.
 
-- **initial_stt_engine** - refers to the engine which takes care of stephanie's hibernation phase, "hey stephanie, wake up",
+- **initial_stt_engine** - refers to the engine which takes care of stephanie's hibernation phase, `"hey stephanie, wake up"`,
 since it'd be constantly hearing, I thought it'll be better to use google web based engine to set it, but as always you can change it
 to whichever engine you like from the above options.
 
 - **master_stt_engine** - refers to the engine which takes care of actual functionality, like triggering the correct response to
-"what is the time right now?" or "Do I have any facebook notifications?" and so on. Change it from default "google" web based to any of the above option you
+`"what is the time right now?"` or `"Do I have any twitter notifications?"` and so on. Change it from default `google` web based to any of the above option you
 like, to get good experience.
 
 <hr>
@@ -201,7 +207,7 @@ and is the best in the market, and is the only service which stephanie offers ou
 
 - **tts_player** - os refers to operating system, and it just plays that audio (.mp3) from your preferred way of audio listening
 application (probably vlc media player), if it keeps speaking same thing again and again, you probably have repeat setting on your application.
-Stephanie provides 'pygame' as other option, which works independently, but they have a weird bug which sometimes fails the process, so again don't mess
+Stephanie provides `pygame` as other option, which works independently, but they have a weird bug which sometimes fails the process, so again don't mess
 with these settings for now.
 
 And this ends the primary configurations of stephanie, now it will probably work efficiently, and all you need now is set up modules,

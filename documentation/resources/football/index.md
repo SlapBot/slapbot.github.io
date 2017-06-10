@@ -30,7 +30,7 @@ are also available below to let you gain a solid understanding of the given modu
 
 <a name="configuration"></a>
 ## Configuration
-First of all in order to use Football Module, it's strongly recommended to fill in your favorite id and name from the given table listed below to enjoy all the features
+First of all in order to use `Football Module`, it's strongly recommended to fill in your favorite `id` and `name` from the given table listed below to enjoy all the features
 available to you by this given module.
 
 **Note** : If you can't find your favorite team in the given table listed below, head to the features section to know 
@@ -149,7 +149,7 @@ more insight about it.
 
 Let me show you first hand, how to go about configuring this module in case you are still kind of confused with this toy example.
 
-- First pick your favorite team, you can use **CTRL+F** to use inbuilt search option of the browser to track your favorite team, in my case it's Real Madrid,
+- First pick your favorite team, you can use **CTRL+F** to use inbuilt search option of the browser to track your favorite team, in my case it's `Real Madrid`,
 so find the row containing real madrid as follows:
 
         | Real Madrid CF | 86 | real-madrid |
@@ -159,11 +159,11 @@ so find the row containing real madrid as follows:
         favorite_football_team_id = 86
         favorite_football_team_name = real-madrid
 
-- In order to use news section of this module, enter the various other configs as well like so. The available options are as follows:  premier-league, championship, league-one, league-two, la-liga, bundesliga, serie-a.
+- In order to use news section of this module, enter the various other configs as well like so. The available options are as follows: `premier-league`, `championship`, `league-one`, `league-two`, `la-liga`, `bundesliga`, `serie-a`.
 
         favorite_football_competition_name = premier-league
 
-**Note :** Using `favorite_football_team_name` and `favorite_football_competition_name` is used by getting information from sportsmole website, so using it entirely your decision and I don't have any warrany on it's usage, So use at your own decision.
+**Note :** Using `favorite_football_team_name` and `favorite_football_competition_name` is used by getting information from `sportsmole.co.uk` website, so using it entirely your decision and I don't have any warrany on it's usage, So use at your own decision.
 
 And well to be honest, that's it. You have successfully configured the football module. Now let's head straight into the features section.
 
@@ -175,26 +175,26 @@ In this section, we will discuss about all the features that this module offers 
 ## Leagues And Competitions
 Stephanie currently offers a total of 13 competitions/leagues from european football as follows:
 
-1. Premier League (English League)
-2. Championship (English Second League)
-3. Bundesliga (German League)
-4. Bundesliga 2nd (German Second League)
-5. Ligue 1 (French League)
-6. Ligue 2 (French Second League)
-7. La Liga (Spanish League)
-8. La Liga Segunda (Spanish Second League)
-9. Primeira Liga (Portuguese League)
-10. Serie A (Italian League)
-11. Eredivisie (Netherlands League)
-12. DFB-Pokal (German Cup)
-13. Uefa Champions League (Champions League)
+1. **Premier League (English League)**
+2. **Championship (English Second League)**
+3. **Bundesliga (German League)**
+4. **Bundesliga 2nd (German Second League)**
+5. **Ligue 1 (French League)**
+6. **Ligue 2 (French Second League)**
+7. **La Liga (Spanish League)**
+8. **La Liga Segunda (Spanish Second League)**
+9. **Primeira Liga (Portuguese League)**
+10. **Serie A (Italian League)**
+11. **Eredivisie (Netherlands League)**
+12. **DFB-Pokal (German Cup)**
+13. **Uefa Champions League (Champions League)**
 
-**Note** Take a look at the phrase listed between parantheses above, those are the keywords which trigger the given league.
+**Note** Take a look at the phrase listed between **parantheses** above, those are the **keywords** which trigger the given league.
 
 ### Teams
 
 Stephanie offers team information of almost every team present in the given competitions but to shorten down the list, 
-I showed the team information of top 5 leagues of european football above, so in case you can't find your favorite league in the table shown above, just contact me through any of the social media links through pm in facebook, post/comment in reddit, question in quora or whatever, and I will get you your team id and name as follows.
+I showed the team information of top 5 leagues of european football above, so in case you can't find your favorite league in the table shown above, just contact me through any of the social media links through pm in [Facebook Stephanie](https://www.facebook.com/Drazier), **[Subreddit Stephanie](https://www.reddit.com/r/StephanieAssistant)**, as well as [Quora Stephanie](https://www.quora.com/topic/Stephanie-Virtual-Assistant), and I will get you your team id and name as follows.
 
 <a name="commands"></a>
 ## Commands
@@ -229,13 +229,13 @@ acts as a new source of program which takes in your various commands and acts ac
 <a name="football-module"></a>
 ## Triggering Football Module
 
-In order to trigger football module, all you need to do is say any command which has "Football" and "Information" attached to it, for instance, "Can I have some football information?", "Hey Stephanie give me some football information". After that stephanie will respond by asking which kind of information you seek?
+In order to trigger football module, all you need to do is say any command which has `Football` and `Information` attached to it, for instance, `Can I have some football information?`, `Hey Stephanie give me some football information`. After that stephanie will respond by asking which kind of information you seek?
 
 <a name="available-responses"></a>
 ### Available Responses
 
-Anything written inside paratheses are the keywords that your command should have inorder to trigger that 
-functionality. for instance ("English", "League"), your command should be like: "How about english league?"
+Anything written inside `paratheses` are the `keywords` that your command should have inorder to trigger that 
+functionality. for instance `("English", "League")`, your command should be like: `"How about english league?"`
 
 The reason why I used the native words like english, german, italian and so on was because of the fact that STT doesn't works too well in languages other than english, for example : La Liga, Serie A, Bundesliga, they are really hard to pick and hence native words are used since they are so effective.
 
@@ -254,7 +254,7 @@ The reason why I used the native words like english, german, italian and so on w
 - Get Eredivisie ("netherlands", "league")
 - Get Primeira Liga ("portuguese", "league")
 - Get Serie A ("italian", "league")
-- Get Team Information ("team", "information")
+- Get Team Information ("favorite", "team")
 	- Triggers a new module resulting in team information as listed in your config.ini file.
 - Get news of all of the surrounding football world ("latest", "news")
 	- Returns the currrent latest news in football world.
@@ -262,10 +262,10 @@ The reason why I used the native words like english, german, italian and so on w
 <a name="competitions-usage"></a>
 #### Competitions
 
-So after triggering one of the competition handles, like ("english", "league"), ("spanish", "league") or whatever, 
+So after triggering one of the competition handles, like `("english", "league")`, `("spanish", "league")` or whatever, 
 You can do lots of stuffs with it as per your command usage, and there are currently 4 commands given to you for your usage.
 
-Stephanie will open the conversation by telling which league you selected and all kinds of commands available to you briefly. For example: "Get me the latest news."
+Stephanie will open the conversation by telling which league you selected and all kinds of commands available to you briefly.
 
 - Get League Specific News ("get", "news")
 	- Gets latest news about the selected league.
@@ -276,17 +276,17 @@ Stephanie will open the conversation by telling which league you selected and al
 - Get League Specific Previous Results ("get", "previous", "fixtures")
 	- Gets the results of the previous fixtures (last/current matchday)
 
-After triggering and let's say after the completion of the latest news, stephanie will ask if you would like to know other information about this given league in which case you can use any of the commands listed above to go towards that function and if all you wanted was news, just say anything negative to get out of the module like. (No, Nevermind, Nah)
+After triggering and let's say after the completion of the latest news, stephanie will ask if you would like to know other information about this given league in which case you can use any of the commands listed above to go towards that function and if all you wanted was news, just say anything negative to get out of the module like. (No, Nevermind, Nah, Nope)
 
 <a name="teams-usage"></a>
 #### Teams
 
-Team nested module can be triggered as using keywords like "team" and "information:", for example: "Hey stephanie, give me some team information",
+Team nested module can be triggered as using keywords like `team` and `information:`, for example: `Hey stephanie, give me some team information`,
 You can again do lots of stuffs with it as per your command usage, and there are currently 6 commands given to you for your usage.
 
-Stephanie will open the conversation by telling which team you selected and all kinds of commands available to you briefly. For example: "Get me the latest news."
+Stephanie will open the conversation by telling which team you selected and all kinds of commands available to you briefly. For example: `Get me the latest news.`
 
-**Note**: This section won't work unless you have configured your favorite team information configuration listed above in your config.ini file accordingly.
+**Note**: This section won't work unless you have configured your favorite team information configuration listed above in your `config.ini` file accordingly.
 
 - Get Team News ("get", "news")
 	- Get latest news revolving around your favorite club.

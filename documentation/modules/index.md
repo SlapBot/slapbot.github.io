@@ -36,7 +36,7 @@ and what kind of features it will bring into play.
 <a name="config-ini"></a>
 ### Config.ini file
 
-All the configurations will go in the config.ini file under the tab [MODULES] present in it. Again configuring modules isn't compulsory,
+All the configurations will go in the `config.ini` file under the tab `[MODULES]` present in it. Again configuring modules isn't compulsory,
 so for instance if you're not a football fan, (what the hell man!) then there is no need to hook that in, but that will mean that you won't be able
 to use certain commands related to football (that given module) which stephanie offers. There are also certain modules which doesn't require any
 prior configuration to use them, like Wikipedia (Thank you Jimmy Wales!), IMDB and few others.

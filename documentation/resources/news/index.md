@@ -7,7 +7,7 @@ currentpage: news
 
 Choose your favorite news source from the given table listed below to get news from it instantly.
 
-**Note:** Threshold can also be provided under "news_threshold" tag to tell how many news articles you want stephanie to read at a time, default is listed as 5 and maximum is 10.
+**Note:** Threshold can also be provided under `news_threshold` tag to tell how many news articles you want stephanie to read at a time, default is listed as 5 and maximum is 10.
 
 ### Source Table
 

@@ -3,7 +3,7 @@ baseurl:
 
 # Site settings
 title: Stephanie | Virtual assistant at your service
-email: your-email@domain.com
+email: ugupta41@gmail.com
 description: Stephanie is an open-source platform built specifically for voice-controlled application as well as to automate daily tasks imitating much of an virtual assistant's work.
 
 product_title: Stephanie
@@ -41,16 +41,16 @@ social:
   - title: facebook
     url: https://www.facebook.com/Stephanie-Virtual-Assistant-319363778501603/
   - title: envelope
-    url: stephanie_virtual_assistant@gmail.com
+    url: ugupta41@gmail.com
   - title: question-circle
     url: https://www.quora.com/topic/Stephanie-Virtual-Assistant
   - title: github
-    url: http://github.com/slapbot/stephanie
+    url: http://github.com/slapbot/stephanie-va
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Kanpur, Uttar Pradesh
+  - line: India
 
 # Build settings
 markdown: kramdown

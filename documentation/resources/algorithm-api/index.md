@@ -5,7 +5,7 @@ currentpage: algorithm-api
 
 # Sounder API
 
-This section is dedicated to the [Sounder Library's](github_link) API.
+This section is dedicated to the [Sounder Library's](https://www.github.com/slapbot/sounder) API.
 
 - [Installation](#installation)
 - [Instantiate Class](#instantiate)

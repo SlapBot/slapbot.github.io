@@ -76,7 +76,7 @@ for you to install python in your local machine using good 'ol
 .exe setup distribution (just like how you install any game/software)
 
 > A small tip: Don't mess with the settings of the installer just
-let it install at C: drive or whatever it chooses according to your OS.
+let it install at C: drive or whatever it chooses according to your OS as well as let it set environment variable just don't mess with it.
 
 To install python3 just go to this link : [https://www.continuum.io/downloads](https://www.continuum.io/downloads){:target="_blank"}
 and download the correct installer in accordance to your operating system,
@@ -128,7 +128,7 @@ leaving the other half which can again be tackled in two ways :
 
 So the first thing you need to do is to download (or as we
 call clone by convention) the source code in your machine
-through this Github link : [wwww.github.com/stephanie](www.github.com/stephanie){:target="_blank"}
+through this Github link : [Stephanie-VA](www.github.com/slapbot/stephanie-va){:target="_blank"}
 
 This will help you download the repository (repository is
 called a folder where all the code is managed.), it will be
@@ -141,10 +141,10 @@ or whatever, basic stuff, Now in order to install the software, there are two wa
 ##### Via application
 
 If you don't wanna use command line, 
-All you need to do is to get in the extracted folder, there you will find `install.bat` just press it, that will install everything properly, after that
+All you need to do is to get in the extracted folder, there you will find `install.bat` just double click it, that will install everything properly, if needed you can also right click and do open as an administrator, after that
 just basically double click `open.bat` and everything will work for you. again you haven't done much of configuration, so not everything will work as expected.
 and efficiency won't be good, so let's meet in configuration section, till then you ask basic stuffs from stephanie like,
-"Hey Stephanie, what is the time right now?", "Hey Stephanie, what is the date today?", "Hey Stephanie, you're fired." and so on.
+`"Hey Stephanie, what is the time right now?"`, `"Hey Stephanie, what is the date today?"`, `"Hey Stephanie, you're fired."` and so on.
 
 Now onwards, you can simply use `open.bat` to use stephanie, make a shortcut to that file in desktop if you want.
 
@@ -160,7 +160,7 @@ a slight exposure around how command line works and if it fails, you can always 
 basic utility for any programmer, and let's not forget how "hackerish" it
 looks too. You just need to learn few commands and you're good to go.
 
-- Go to start-menu and type cmd, and right click on cmd.exe, it will open a pop up menu, click run as administrator so you have all the permissions.
+- Go to start-menu and type cmd, and right click on `cmd.exe`, it will open a pop up menu, click run as administrator so you have all the permissions.
 
 - now you can go to the folder, where you extracted the repository, (downloaded files) and open that folder.
 Now just copy the location where this folder is present, basically how 'url' works in chrome, if you click on it, that will show the path of that folder. For example :
@@ -180,7 +180,7 @@ quotation marks ("____") where ____ = copied address, like so:
 - So awesome, now you're in the correct folder, and everything is going good. Now all
 you need to do is type this command `python install.py` Okay so some new
 command, Eh? Again it's simple as mouse, that command basically says run `install.py` which is the module written to install all of the dependencies needed to run stephanie. It gets all the code made from different people and install it
-in your machine for you to use. "requirements.txt" denote to a file present in stephanie, which I added, has
+in your machine for you to use. `requirements.txt` denote to a file present in stephanie, which I added, has
 the information about all the code I needed to make stephanie. Cool? Cool.
 
         python install.py
@@ -188,17 +188,17 @@ the information about all the code I needed to make stephanie. Cool? Cool.
 - And with that all the dependencies are in place, everything is ready to go, see just a couple of commands
 and you are on your road to become a badass tony stark.
 Finally, you can actually test stephanie, though you haven't configured it yet, but if you type commnd `python index.py`,
-stephanie will start working. Gon try it, type command:
+Stephanie will start working. Gon try it, type command:
 
         python index.py
 
-This command will result in saying : "Stephanie is on." meaning everything worked.
+This command will result in saying : `Stephanie is on.` meaning everything worked.
 Now by default speech to text engine is set to google speech,
 with wake-up engine set to False. more information will be provided in configuration section.
 All it means is that stephanie is ready to work, but it doesn't has all the functionality, and wouldn't work the best yet.
 
-You can do basic stuffs like ask, "Hey Stephanie, what is the time right now?"
-after having fun, close stephanie, by using keyboard shortcut, CTRL + C repeatedly.
+You can do basic stuffs like ask, `Hey Stephanie, what is the time right now?`
+after having fun, close stephanie, by using keyboard shortcut, `CTRL + C` repeatedly or giving command, `Stephanie, you're fired.`
 or just closing the command line altogether, whenever you wanna use stephanie, you can write the command, `python index.py` from the directory in which stephanie lies to invoke the application.
 
 <hr>
@@ -226,11 +226,13 @@ especially with package managers like anaconda or just do it from official sourc
 
 Once you have python3 installed in your computer you can install stephanie quite easily.
 
-- Just Clone this repository [wwww.github.com/stephanie](www.github.com/stephanie){:target="_blank"} in your machine, extract it, and open command prompt as administrator in that folder.
+- Just Clone/Downlaod this repository [Stephanie-VA](www.github.com/slapbot/stephanie-va){:target="_blank"} in your machine, extract it, and open command prompt as administrator in that folder.
 
 - Install all the dependencies through the command :
 
         pip install -r requirements.txt
+
+    Or by simply executing the `install.py` script, or just clicking `install.bat` which is a wrapper around `install.py`.
 
 - And run the application using command :
 
@@ -239,8 +241,8 @@ Once you have python3 installed in your computer you can install stephanie quite
 - Alternatively instead of running command python index.py, you can also simple execute `open.bat`, but former one works best
 if you have some kind of command line preference, for instance I frickin love cmder.
 
-- To close the application, simple close the command line, or press CTRL + C, you can also say "Hey Stephanie, you're fired" to close it.
+- To close the application, simple close the command line, or press CTRL + C, you can also say `"Hey Stephanie, you're fired"` to close it.
 
 - Since you haven't done any configuration, stephanie won't work at it's best, will have limited functionality and efficiency won't be
-the best either, try commands like "Hey Stephanie, what is the time right now?" or "Hey stephanie, what is the date today?" to test it and Let's meet
+the best either, try commands like `"Hey Stephanie, what is the time right now?"` or `"Hey stephanie, what is the date today?"` to test it and Let's meet
 in the [configurations section](/documentation/configuration)

@@ -5,6 +5,8 @@ currentpage: algorithm
 
 # Sounder Algorithm
 
+- [Download as PDF](#download-pdf)
+- [Github Link](https://www.github.com/slapbot/stephanie-va)
 - [Introduction](#introduction)
 - [Algorithm](#algorithm)
 	- [Levenshtein Edit Distance](#levenshtein-edit-distance)
@@ -20,6 +22,10 @@ currentpage: algorithm
 - [Conclusion](#conclusion)
 
 <hr>
+<a name="download-pdf">
+### Download in PDF format
+
+Here's the link to the PDF version available to download : [Sounder PDF](Somelink)
 
 <a name="introduction">
 # INTRODUCTION
@@ -166,7 +172,7 @@ A really simple demo module in this case twitter module which gets some twitter 
 			super().__init__(*args)
 		def get_notifications(self):
 			// use some logic to get notifications by hooking with Twitter API
-			response = "You have %s notifications, namely %s" % (data['count'], 									              data ['text']
+			response = "You have %s notifications, namely %s" % (data['count'], 									              data ['text'])
 			self.assistant.say(response)
 
 TwitterModule has its keywords assigned as ['twitter', 'notifications'], though to be a little more specific and help developers writing rules it's written as:

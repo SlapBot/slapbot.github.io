@@ -61,7 +61,7 @@ Whenever you give any kind of command to stephanie, it goes to some of the amazi
 text form, now it separates all the somewhat unimportant words (articles, tenses) out of it, leaving behind only keywords (nouns, adjectives and so on) which
 then it sends to an algorithm (I have recently published a paper kind of thing of it, have a look at it here at ->  , it contains lot more about internals about stephanie.)
 which outputs the module which it should trigger in the end, and then it gets triggered and various kind of data is sent to it as well to do stuffs like
-"Hey Stephanie, do an alpha search, 'What is the meaning of life?'".
+`Hey Stephanie, do an alpha search, 'What is the meaning of life?`.
 
 <hr>
 
@@ -70,12 +70,12 @@ which outputs the module which it should trigger in the end, and then it gets tr
 
 So how stephanie decides that which module to trigger is that each module has a certain set of keywords attached to it. The algorithm searches through
 all of the modules keywords and calculate the probability of the text (your command) associated to a given module using the algorithm described above and
-finally chooses the best one. So each module has some keywords which help it find the given module. For example: TwitterModule
-has keywords as "Twitter" and "Notifications". So whenever you say any sentence which has twitter and notifications in it, this
+finally chooses the best one. So each module has some keywords which help it find the given module. For example: `TwitterModule`
+has keywords as `"Twitter"` and `"Notifications"`. So whenever you say any sentence which has twitter and notifications in it, this
 gives a high probability to that module and it gets selected.
 
 **Note** : In order to make it efficient you could also try saying
-twitter and no notifications and it will still pick that module, because of the way that algorithm is built. It uses some concepts like metaphones, munnkres algorithm and levenshtein principle. I highly recommend all the people who are interested to see how algorithm works to take a look here :->
+twitter and no notifications and it will still pick that module, because of the way that algorithm is built. It uses some concepts like `metaphones`, `munkres algorithm` and `levenshtein principle`. I highly recommend all the people who are interested to see how algorithm works to take a look here : [Sounder](https://www.github.com/slapbot/sounder)
 And I have set it up as a package hosted in github so you can use it out of the box for your own application. It's use isn't limited to
 this stephanie only, since it's used at various places in the module logic too to just do basic searching.
 
