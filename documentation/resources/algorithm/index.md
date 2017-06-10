@@ -215,4 +215,4 @@ The working efficiency of this algorithm is pretty good, and I would highly reco
 <a name="download-pdf">
 ### Download in PDF format
 
-Here's the link to the PDF version available to download : [Sounder PDF](http://www.slapbot.github.io/documentation/resources/algorithm/sounder.pdf)
+Here's the link to the PDF version available to download : [Sounder PDF](http://slapbot.github.io/documentation/resources/algorithm/sounder.pdf)
