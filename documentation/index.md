@@ -17,7 +17,7 @@ currentpage: home
     <div class="col-lg-3">
         <a href="installation/#hardware-requirements"><img src="/img/documentation/hardware.png" class="img-responsive center-block" width="150" alt=""></a>
         <a href="installation/#hardware-requirements" class="text-center"><h4>Get the hardware</h4></a>
-        <p class="text-center">You got inbuilt speakers and a phone, mic, headphone anything to input voice? ready to roll.</p>
+        <p class="text-center">You got inbuilt speakers and a phone, mic, headphone anything to input voice? Ready to roll.</p>
     </div><!--/col-lg-4 -->
 
     <div class="col-lg-3">
