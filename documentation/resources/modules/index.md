@@ -77,4 +77,4 @@ This is a joke module which fetches some jokes from  www.goodbadjokes.com and sp
 
 #### Github/Download Link
 
-[Joke Module](github.com/slapbot/JokeModule) By [Ujjwal Gupta](github.com/slapbot)
+[Joke Module](https://github.com/SlapBot/JokeModule) By [Ujjwal Gupta](github.com/slapbot)
