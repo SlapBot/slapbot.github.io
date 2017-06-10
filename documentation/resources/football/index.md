@@ -254,7 +254,7 @@ The reason why I used the native words like english, german, italian and so on w
 - Get Eredivisie ("netherlands", "league")
 - Get Primeira Liga ("portuguese", "league")
 - Get Serie A ("italian", "league")
-- Get Team Information ("favorite", "team")
+- Get Team Information ("team", "information")
 	- Triggers a new module resulting in team information as listed in your config.ini file.
 - Get news of all of the surrounding football world ("latest", "news")
 	- Returns the currrent latest news in football world.

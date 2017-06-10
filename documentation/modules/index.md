@@ -358,6 +358,8 @@ free public API without any API token required for light uses.
 Similarly Stephanie also comes up with a movies module to take care of retrieving any kind of information about movies without
 any prior setup required.
 
+**note** Folks at omdb are trying to update their server, and hence is temporarily unvailable for some time, I will update the script it when their server will be working fine.
+
 <a name="system"></a>
 ### System
 
