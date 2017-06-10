@@ -5,8 +5,7 @@ currentpage: algorithm
 
 # Sounder Algorithm
 
-- [Download as PDF](#download-pdf)
-- [Github Link](https://www.github.com/slapbot/stephanie-va)
+- [Github Link](https://www.github.com/slapbot/sounder)
 - [Introduction](#introduction)
 - [Algorithm](#algorithm)
 	- [Levenshtein Edit Distance](#levenshtein-edit-distance)
@@ -20,12 +19,9 @@ currentpage: algorithm
 - [Potential Optimization](#potential-optimization)
 - [Library](#library)
 - [Conclusion](#conclusion)
+- [Download as PDF](#download-pdf)
 
 <hr>
-<a name="download-pdf">
-### Download in PDF format
-
-Here's the link to the PDF version available to download : [Sounder PDF](Somelink)
 
 <a name="introduction">
 # INTRODUCTION
@@ -215,3 +211,8 @@ This very algorithm has been implemented in python programming language, and is 
 The working efficiency of this algorithm is pretty good, and I would highly recommend checking the code provided in the github to gain more of the hidden insight and see it work in practice. This search algorithm acts as a primary core of Stephanie which helps it determining the ‘meaning’ of the sentence and triggering the correct response. I highly recommend checking Stephanie as well since it’s open-source and you could see this phonetic algorithm in real life application.
 
 **P.S.** I am 18 year old lad, who didn't go to college and most of my  understanding of programming and computer science fundamentals came from active surfing, reading lots of books, and just plainly asking questions and finding it's answers. So I doubt this as more of a blog than a research paper, so kindly go easy on me and if you find any mistake or just want to improve the given document or just wanna talk about it in depth or merely for fun, just contact me at ugupta41@gmail.com.
+
+<a name="download-pdf">
+### Download in PDF format
+
+Here's the link to the PDF version available to download : [Sounder PDF](http://www.slapbot.github.io/documentation/resources/algorithm/sounder.pdf)
