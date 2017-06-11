@@ -128,7 +128,7 @@ leaving the other half which can again be tackled in two ways :
 
 So the first thing you need to do is to download (or as we
 call clone by convention) the source code in your machine
-through this Github link : [Stephanie-VA](www.github.com/slapbot/stephanie-va){:target="_blank"}
+through this Github link : [Stephanie-VA](https://www.github.com/slapbot/stephanie-va){:target="_blank"}
 
 This will help you download the repository (repository is
 called a folder where all the code is managed.), it will be
