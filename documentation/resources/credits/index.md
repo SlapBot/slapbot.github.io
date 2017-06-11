@@ -11,6 +11,8 @@ In this section, I'd just like to name some people and organizations to whom I a
 
 - **Jasper** : Jasper is one of the few open source virtual assistants that works in Rasberry PI, the lads which built has done a really good job, even though Stephanie is written from scratch, few good design patterns were used from their application, I was inspired by some of their modules and have used somewhat a similar way of documentation. I think the only place where stephanie outskills the Jasper is it's intricate algorithm for intent recognition, more modern modules, a more framework rather application approach, different configurations, engines and so forth, and easy to work, without a need of any hardware other than minimalistic speaker and mic.
 
+- **Noun Project** : Their icons are simply amazing!
+
 - **StackExchange** : Well, how can I forget my biggest source of knowledge alonside books which helped me solve limitless problems over the course.
 
 - **Books** : Some amazing books like Clean Code by RC Martin, Refactoring by Kent Beck and Martin Fowler, Introduction to Algorithms, Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides and many more.
