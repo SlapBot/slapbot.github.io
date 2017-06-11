@@ -148,7 +148,7 @@ and efficiency won't be good, so let's meet in configuration section, till then 
 
 Now onwards, you can simply use `open.bat` to use stephanie, make a shortcut to that file in desktop if you want.
 
-> **In case you have a linux based system**, then kindly use command line, to run `python install.py` from the extracted folder directory to install all of the modules effectively. While in order to run the application, you can use `python index.py`. Basically batch file is written with windows in mind, since working with command line is kind of a norm as far as linux systems are concerned. In case you have any trouble, you can always restort to via command-line listed below, or ask a query at one of the links listed below of the page to get help.
+> **In case you have a linux based system**, then kindly use command line, to run `python install.py` from the extracted folder directory to install all of the modules effectively. While in order to run the application, you can use `python index.py`. Basically batch file is written with windows in mind, since working with command line is kind of a norm as far as linux systems are concerned. In case you have any trouble, you can always restort to via command-line listed below, or ask a query at one of the links listed below of the page to get help. And also the fact that make sure [portaudio](https://github.com/SlapBot/stephanie-va/issues/8#issuecomment-307618602) package is installed.
 
 <hr>
 
