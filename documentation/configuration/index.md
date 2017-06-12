@@ -200,15 +200,14 @@ TTS refers to Text-To-Speech, it just basically converts text to speech, and hen
         [TTS]
         tts_engine = google
 
-        tts_player = os
+        tts_player = mixer
 
 - **tts_engine** - refers to the service used to get audio from the text that stephanie has as it's end result, google provides it for free,
 and is the best in the market, and is the only service which stephanie offers out of the box, so just don't interfere with it for now.
 
-- **tts_player** - os refers to operating system, and it just plays that audio (.mp3) from your preferred way of audio listening
+- **tts_player** - os refers to operating system, mixer is a inbuilt and it just plays that audio (.mp3) from your preferred way of audio listening
 application (probably vlc media player), if it keeps speaking same thing again and again, you probably have repeat setting on your application.
-Stephanie provides `pygame` as other option, which works independently, but they have a weird bug which sometimes fails the process, so again don't mess
-with these settings for now.
+Stephanie provides `os` and `mixer` as options, if you are feeling any kind of issue with `mixer`, kindly resort to `os`. 
 
 And this ends the primary configurations of stephanie, now it will probably work efficiently, and all you need now is set up modules,
 like facebook and so on, to get your Jarvis v-999 ready. (Look you must be frustrated that so much work you need to do, but comeon
