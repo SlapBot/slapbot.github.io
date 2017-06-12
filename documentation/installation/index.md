@@ -226,7 +226,7 @@ especially with package managers like anaconda or just do it from official sourc
 
 Once you have python3 installed in your computer you can install stephanie quite easily.
 
-- Just Clone/Downlaod this repository [Stephanie-VA](www.github.com/slapbot/stephanie-va){:target="_blank"} in your machine, extract it, and open command prompt as administrator in that folder.
+- Just Clone/Downlaod this repository [Stephanie-VA](https://www.github.com/slapbot/stephanie-va){:target="_blank"} in your machine, extract it, and open command prompt as administrator in that folder.
 
 - Install all the dependencies through the command :
 
