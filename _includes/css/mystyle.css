@@ -90,3 +90,10 @@
 .footer-credits {
     font-size: small;
 }
+
+.github-header-link {
+    border-style: double;
+    background-color: #fed136;
+    color: black;
+    font-size: larger;
+}
