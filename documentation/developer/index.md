@@ -19,7 +19,7 @@ currentpage: developer
         - [Config Object](#config-object)
         - [Advanced Usage](#advanced-usage)
         - [Practical Tips](#practical-tips)
-    - [Easy Integrate](#easy-integrate)
+    - [Easy Integration](#easy-integrate)
 
 <hr>
 
@@ -428,7 +428,7 @@ would mean the same thing, though you might wanna use correct keywords, and henc
 you could do a simple `return "Thank you."`, as both will work identically.
 
 <a name='easy-integrate'>
-# East Integrate
+# Easy Integration
 
 Stephanie provides a really easy integration of 3rd party modules, and if you have created your very own module and would like to share with the other community, then please do. like really Stephanie is nothing without the community's support.
 
